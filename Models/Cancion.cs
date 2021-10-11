@@ -21,7 +21,7 @@ namespace canciones_web_api.Models
         [Url]
         [StringLength(100,MinimumLength =10,ErrorMessage ="la longitud de {0} debe estar entre {2} y {1}")]
 
-       public string Link { get; set; }
+        public string Link { get; set; } 
 
     }
 }
